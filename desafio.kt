@@ -30,7 +30,7 @@ fun main() {
     val conteudo9 = ConteudoEducacional("ReactJS, Bootstrap, Redux e SASS", 180)    
     
     //Lista de Cursos de Formação
-    val formacao1 = Formacao("Desenvolvimento Web", Nivel.BASICO, listOf(conteudo1, conteudo2, conteudo3))
+    val formacao1 = Formacao("Princípios de Programação", Nivel.BASICO, listOf(conteudo1, conteudo2, conteudo3))
     val formacao2 = Formacao("Web Design e Experiência do Usuário", Nivel.INTERMEDIARIO, listOf(conteudo4, conteudo5, conteudo6))
     val formacao3 = Formacao("Desenvolvimento Front End", Nivel.AVANCADO, listOf(conteudo7, conteudo8, conteudo9))
     
